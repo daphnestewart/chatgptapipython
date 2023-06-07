@@ -6,7 +6,7 @@ openai.api_key = "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"
 
 # Set up the model and prompt
 model_engine = "text-davinci-003"
-prompt = "Hello, how are you today?"
+prompt = "Hello, what are we talking about today?"
 
 # Generate a response
 completion = openai.Completion.create
